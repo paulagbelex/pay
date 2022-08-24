@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: -0.01em;
+}
+
+.wrapper {
+    /*design for the b0dy*/
+    background-color: rgb(238, 250, 238);
+}
+
+a {
+    text-decoration: none;
+}
+
+.c-nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: rgba(241, 254, 244, 0.95);
+    height: 60px;
+    margin-top: -24px;
+}
+
+.c-nav-left {
+    margin-left: -6px;
+}
+
+.c-nav-right {
+    margin-left: 60px;
+    margin-top: -0.5rem;
+
+}
+
+
+nav div {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.left,
+.right {
+    list-style-type: none;
+
+}
+
+
+li {
+    float: left;
+}
+
+.left a {
+    display: block;
+    color: #011b33;
+    padding: 8px;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.right a {
+    display: block;
+    margin: 0;
+    color: #011b33;
+    padding: 9px;
+    padding-left: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+    color: rgb(69, 126, 249);
+}
+
+
+.box {
+    background-color: #3bb75e;
+    border-radius: 5px;
+    border: none;
+    padding-left: -1.0em;
+    padding-right: 0em;
+
+}
+
+.text-white {
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+.divmo {
+
+    width: 50%;
+    line-height: 1.1;
+    margin: 20px;
+
+}
+
+h1.topwrite {
+    color: #011b33;
+    font-size: 2.8rem;
+    padding-top: 160px;
+
+}
+
+p#topwrite {
+    display: inline-block;
+
+    font-size: 1.19rem;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    margin: 0;
+    color: #011b33;
+}
+
+.base {
+    display: block;
+    align-items: center;
+}
+
+.li {
+    display: inline-block;
+    background-color: #3bb75e;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1.15em;
+    padding-right: 1.15em;
+    font-size: 1.2rem;
+
+
+}
+
+.text {
+    color: white;
+
+}
+
+.contact {
+    display: inline-block;
+    width: 55%;
+    margin-top: 7.8%;
+    margin-left: 15px;
+
+
+}
+
+span.cont {
+    display: inline;
+    color: #3bb75e;
+}
+
+.u-icon-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: #011b33 transparent transparent transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.u-icon-arrow {
+    margin-left: 4px;
+    color: #011b33;
+    transition: border linear 0.1s;
+}
